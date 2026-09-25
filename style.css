@@ -21,10 +21,8 @@ main {
     width: 80%;
     max-width: 1000px;
     margin: 50px auto;
-
     background-color: white;
     padding: 40px;
-    
     border-radius: 14px;
 }
 
@@ -60,7 +58,6 @@ section {
     border-radius: 12px;
 }
 
-
 .project {
     background-color: white;
     padding: 25px;
@@ -70,37 +67,6 @@ section {
 
 .project h2 {
     margin-top: 0;
-}
-
-.project-picture {
-    display: block;
-    width: 100%;
-    max-width: 650px;
-    margin: 20px auto;
-    border-radius: 8px;
-}
-
-.project a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0066cc;
-    font-weight: bold;
-}
-
-.education-picture {
-    width: 300px;
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.work-experience {
-    text-align: center;
-}
-
-.work-experience ul {
-    display: inline-block;
-    text-align: left;
 }
 
 article {
