@@ -29,6 +29,11 @@ main {
     border-radius: 14px;
 }
 
+.about-me {
+    text-align: center;
+}
+
+
 h1 {
     font-size: 40px;
     text-align: center;
