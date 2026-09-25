@@ -11,5 +11,4 @@ const footer = document.getElementById("footer");
 
 footer.innerHTML = `<footer>
         <p>© 2026 Hans Zhang</p>
-        <a href="https://www.linkedin.com/">LinkedIn</a>
     </footer>`;
