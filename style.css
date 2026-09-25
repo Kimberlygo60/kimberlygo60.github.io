@@ -28,6 +28,8 @@ main {
     border-radius: 14px;
 }
 
+
+/* About Me 保持居中 */
 .about-me {
     text-align: center;
 }
@@ -53,6 +55,8 @@ section {
     margin-bottom: 40px;
 }
 
+
+/* 图片居中 */
 .profile-picture {
     display: block;
     width: 420px;
@@ -61,16 +65,8 @@ section {
     border-radius: 12px;
 }
 
-main section:first-of-type {
-    text-align: center;
-}
 
-main section:nth-of-type(2) {
-    text-align: center;
-    border-top: 1px solid;
-    padding-top: 30px;
-}
-
+/* 每个 project 的文字默认靠左 */
 .project {
     background-color: white;
     padding: 25px;
@@ -82,6 +78,8 @@ main section:nth-of-type(2) {
     margin-top: 0;
 }
 
+
+/* Project 图片居中 */
 .project-picture {
     display: block;
     width: 100%;
@@ -97,20 +95,29 @@ main section:nth-of-type(2) {
     font-weight: bold;
 }
 
+
+/* Education 图片居中 */
 .education-picture {
+    display: block;
     width: 300px;
     max-width: 100%;
     border-radius: 8px;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
+
+/* Resume 每一个经历里面的文字靠左 */
 article {
     background-color: white;
     padding: 20px;
     margin-bottom: 25px;
     border-radius: 10px;
+
+    text-align: left;
 }
 
+
+/* Lists 靠左 */
 ul {
     padding-left: 25px;
 }
@@ -118,6 +125,7 @@ ul {
 li {
     margin-bottom: 6px;
 }
+
 
 footer {
     background-color: #222;
